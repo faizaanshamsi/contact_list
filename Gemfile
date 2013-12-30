@@ -43,3 +43,18 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+group :test, :development do
+
+  gem 'rspec-rails'
+  gem 'pry-rails'
+  gem 'capybara'
+  gem 'shoulda-matchers'
+  gem 'valid_attribute'
+  gem 'factory_girl_rails'
+  gem 'launchy'
+  gem 'meta_request'
+  gem 'binding_of_caller'
+  gem 'better_errors'
+
+end
+
